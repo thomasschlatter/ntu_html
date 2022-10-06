@@ -12,4 +12,14 @@ p {
     padding: 70px;
     border: 1px solid gold;
     border-radius: 25px;
+    animation: rotation 8s infinite linear;
+    
 }
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
